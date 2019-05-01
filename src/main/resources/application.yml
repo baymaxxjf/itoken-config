@@ -6,9 +6,9 @@ spring:
       label: master
       server:
         git:
-          uri: http://192.168.33.138:8080/itoken/itoken-config.git
+          uri: http://192.168.33.138:8080/itoken/itoken-eureka.git
           search-paths: respo
-          username: baymax
+          username: baymaxxjf
           password: root1997
   boot:
     admin:
