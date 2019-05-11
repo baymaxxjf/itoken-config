@@ -76,15 +76,18 @@
             </plugin>
         </plugins>
     </build>
-    <repository>
-        <id>nexus</id>
-        <name>Nexus Repository</name>
-        <url>http://192.168.33.138:8081/repository/maven-public/</url>
-        <snapshots>
-            <enabled>true</enabled>
-        </snapshots>
-        <releases>
-            <enabled>true</enabled>
-        </releases>
-    </repository>
+    <repositories>
+        <repository>
+            <id>nexus</id>
+            <name>Nexus Repository</name>
+            <url>http://192.168.33.138:8081/repository/maven-public/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
+    </repositories>
+
 </project>
